@@ -1,0 +1,15 @@
+id
+,
+id
+;
+if
+(
+id
+assign
+num
+)
+{
+id
+assign
+num
+}

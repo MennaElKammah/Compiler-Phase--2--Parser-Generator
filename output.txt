@@ -1,0 +1,66 @@
+METHOD_BODY
+STATEMENT_LIST
+Matched: int
+Matched: id
+Matched: ;
+DASH1
+STATEMENT
+Matched: id
+Matched: assign
+EXPRESSION
+SIMPLE_EXPRESSION
+TERM
+Matched: num
+DASH2
+Epslon
+DASH0
+Epslon
+DASH3
+Epslon
+Matched: ;
+DASH1
+STATEMENT
+Matched: if
+Matched: (
+EXPRESSION
+SIMPLE_EXPRESSION
+TERM
+Matched: id
+DASH2
+Epslon
+DASH0
+Epslon
+DASH3
+Matched: relop
+SIMPLE_EXPRESSION
+TERM
+Matched: num
+DASH2
+Epslon
+DASH0
+Epslon
+Matched: )
+Matched: {
+STATEMENT
+Matched: id
+Matched: assign
+EXPRESSION
+SIMPLE_EXPRESSION
+TERM
+Matched: num
+DASH2
+Epslon
+DASH0
+Epslon
+DASH3
+Epslon
+Matched: ;
+Matched: }
+Missing else
+Missing {
+STATEMENT
+Missing first of sync
+Missing }
+DASH1
+Epslon
+Matched: $
